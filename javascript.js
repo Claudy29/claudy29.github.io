@@ -72,15 +72,15 @@ function click5 (){
 alert ("Добро пожаловать в Кликкер!");
 confirm("Ввести код на 10 lvl,если она есть!");
 if(confirm){
-  var cod1 = cod_2992;
+  var cod1 = "cod_2992";
   var confirm1 = prompt("Введите код: ");
   if(confirm1 == cod1){
-    alert("Успешно!!!");
-    lvl += 10;
-    buy += 10;
+     alert("Успешно!!!");
+     lvl += 10;
+     buy += 10;
     }else{
-    alert("Неправильный код на 10 lvl");
-    continue;
+     alert("Неправильный код на 10 lvl");
+     continue;
     }
 }
 
