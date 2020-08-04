@@ -5,6 +5,13 @@ var buy = 0;
 var price = 50;
 var lvl = 0;
 
+function click7 (){
+        alert("Разработчик:Лесницкий Кирилл Олександрович , Почта: krllesn310@gmail.com");
+        alert(Создано компанией:Angel-Teck);
+        alert(Версия: 1.5);
+        alert("Дата рождения:02.08.2020 , Последнее Обновление 02.08.2020");
+}
+
 function click2 (){
 	score -= score;
 	document.getElementById("balance").innerHTML = "Баланс - " + score;
@@ -27,7 +34,7 @@ function click1 (){
 
 
 function click5 (){
-        if(buy == 10){
+        if(buy >= 10){
                 score +=100;
 }
         if(buy == 9){
