@@ -38,13 +38,13 @@ function click5 (){
                 score +=100;
 }
         if(buy == 9){
-                score +=50;
-}
-        if(buy == 8){
                 score +=30;
 }
-        if(buy == 7){
+        if(buy == 8){
                 score +=20;
+}
+        if(buy == 7){
+                score +=15;
         }
         if(buy == 6){
                 score +=5;
