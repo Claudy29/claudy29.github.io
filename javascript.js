@@ -76,8 +76,8 @@ if(confirm){
   var confirm1 = prompt("Введите код: ");
   if(confirm1 == cod1){
     alert("Успешно!!!");
-    lvl = 10;
-    buy = 10;
+    lvl = += 10;
+    buy = += 10;
     }else{
     alert("Неправильный код на 10 lvl");
     continue;
