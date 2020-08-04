@@ -74,11 +74,11 @@ confirm("Ввести код на 10 lvl,если она есть!");
 if(confirm){
   var cod1 = cod_2992;
   var confirm1 = prompt("Введите код: ");
-  if(confirm == cod1){
+  if(confirm1 == cod1){
     alert("Успешно!!!");
     lvl = 10;
     buy = 10;
-}else{
+    }else{
     alert("Неправильный код на 10 lvl");
     continue;
     }
