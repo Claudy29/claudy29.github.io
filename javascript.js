@@ -27,6 +27,21 @@ function click1 (){
 
 
 function click5 (){
+        if(buy == 10){
+                score += 100;
+        }
+        if(buy == 9){
+                score += 40;
+        }
+        if(buy == 8){
+                score += 20;
+        }
+        if(buy == 7){
+                score +=10;
+        }
+        if(buy == 6){
+                score +=5;
+        }
 	if(buy == 0){
 		score++;
 	}
@@ -55,4 +70,17 @@ function click5 (){
 }
 
 alert ("Добро пожаловать в Кликкер!");
+confirm("Ввести код на 10 lvl,если она есть!");
+if(confirm){
+  var cod1 = cod_2992;
+  var confirm1 = prompt("Введите код: ");
+  if(confirm == cod1){
+    alert("Успешно!!!");
+    lvl = 10;
+    buy = 10;
+}else{
+    alert("Неправильный код на 10 lvl");
+    continue;
+    }
+}
 
