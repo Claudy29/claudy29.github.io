@@ -27,21 +27,6 @@ function click1 (){
 
 
 function click5 (){
-        if(buy == 10){
-                score += 100;
-        }
-        if(buy == 9){
-                score += 40;
-        }
-        if(buy == 8){
-                score += 20;
-        }
-        if(buy == 7){
-                score +=10;
-        }
-        if(buy == 6){
-                score +=5;
-        }
 	if(buy == 0){
 		score++;
 	}
