@@ -1,8 +1,8 @@
-adblockEnabled=false;
+adblockEnabled = false;
 
 var score = 0;
 var buy = 0;
-var price = 50;
+var price = 100;
 var lvl = 0;
 
 if(lvl == 10){
@@ -10,7 +10,7 @@ if(lvl == 10){
 }
 
 function click7 (){
-        alert("Разработчик:Лесницкий Кирилл Олександрович ,\n Почта: krllesn310@gmail.com");
+        alert("Разработчик:Лесницкий Кирилл Олександрович");
         alert("Создано компанией:Angel-Teck");
         alert("Версия: V2.0");
         alert("Дата рождения:02.08.2020 , Последнее Обновление 11.08.2020");
