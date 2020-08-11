@@ -5,6 +5,10 @@ var buy = 0;
 var price = 50;
 var lvl = 0;
 
+if(lvl == 10){
+  alert("Поздравляю! \n (Личное поздравление разработчика)");
+}
+
 function click7 (){
         alert("Разработчик:Лесницкий Кирилл Олександрович ,\n Почта: krllesn310@gmail.com");
         alert("Создано компанией:Angel-Teck");
