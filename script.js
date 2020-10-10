@@ -2,7 +2,7 @@ var legendary = 0;
 var mythick = 0;
 var epick = 0;
 var rare = 0;
-var balance = 80;
+var balance = 0;
 var MegaBoxPrize = 0;
 alert("Welcome!");
 function obnBalance (){document.getElementById("ht2b1").innerHTML="Баланс: " + balance;
