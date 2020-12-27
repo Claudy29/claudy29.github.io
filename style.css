@@ -1,0 +1,81 @@
+body {
+				background:url(fon.jpg);
+				}
+				
+.ht2class1 #ht2im1 {
+				border-width:10px;
+				}
+			
+alert {
+				color:green;
+				}
+				
+hr {
+				height:10px;
+				background-color:#00ff3d;
+				border-width:3px;
+				border-color:#499837;
+				}
+				
+.ht2class1 #ht2b1 {
+				width:200px;
+				height:75px;
+				background-color:#00ff3d;
+				border-width:10px;
+				border-color:#499837;
+				font-size:100%;
+				} 
+				
+.ht2class1 #ht2b2 {
+				width:250px;
+				height:75px;
+				background-color:#00ff3d;
+				border-width:10px;
+				border-color:#499837;
+				font-size:170%;
+				}
+				
+				
+h1 {
+			border-width:3px;
+			border-color:black;
+			color:white;
+			font-size:170%;
+			}	
+
+.class1 #b1{
+				width:300px;
+				height:50px;
+				background-color:#2eff82;
+				font-size:xlarger;
+				border-width:10px;
+				border-color:#16f2c7;
+				}
+
+.class1 #zagalovok1 {
+				height-size:100%;
+				color:green;
+				}
+
+#paragraph1 {
+				height-size:300%;
+				font-size:300%;
+				background-color:gray;
+				}
+				
+.class1 {
+				background:url(fon.jpg);
+				height:730px;
+				}
+
+#test {
+				color:#2aff17;
+				}
+				
+.class3 {	background:url(fon.jpg);
+				height:730px;
+				}
+				
+border {
+				color:#17ff1b;
+				}
