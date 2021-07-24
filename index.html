@@ -1,0 +1,64 @@
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title>NewBank⚙</title>
+ </head>
+ <body>
+  <style>
+   body {	background:url(https://i.ibb.co/pvQJQPZ/image.jpg);
+   				}
+   h1 {
+   				color:#17ff32;
+   				}
+   h3 {
+   				color:#17ff32;
+   				}
+   .class1 {
+   				background-color:white;
+   				}
+   	button {
+   					width:100px;
+   					height:30px;
+   					color:white;
+   					background-color:#17ff32;
+   					border-width:3px;
+   					border-color:#12c927;
+   					}
+  </style>
+  <script>
+  var card = 5168755900432770;
+  var pin = 2770286;
+  function f1 (){
+  				var card1 = document.getElementById("in1").value;
+  				var pin1 = document.getElementById("in2").value;
+  				if(card1 == card && pin1 == pin){
+  								var v1 = confirm("У Иисуса было изначально 12 Апостолов?");
+  								if(v1 == true){
+  												alert("Правда!");
+  												document.location.href = "";
+  												}else{
+  																alert("У Иисуса было 12 Апостолов!");
+  																}
+  								}else{
+  												alert("Попробуйте ещё!)))");
+  												}
+  				}
+  </script>
+  <center>
+   <h1>NewBank</h1>
+   <div class="class1">
+   <h3>Вход</h3>
+   <hr/>
+   <input id="in1" placeholder="Номер карты">
+   <br/>
+   <br/>
+   <input id="in2" placeholder="Пин-код" type="password">
+   <br/>
+   <br/>
+   <button onclick="f1()">Готово</button>
+   <br/>
+   <br/>
+   </div>
+  </center>
+ </body>
+</html>
