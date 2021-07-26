@@ -1,4 +1,4 @@
-<html>
+<html Id="_1">
  <head>
   <meta charset="utf-8">
   <title>NewBank⚙</title>
@@ -35,7 +35,71 @@
   								var v1 = confirm("У Иисуса было изначально 12 Апостолов?");
   								if(v1 == true){
   												alert("Правда!");
-  												document.location.href = "http://claudy28.github.io/";
+  												document.getEkementsById("_1").innerHTML=<html>
+ <head>
+  <meta charset="utf-8">
+  <title>NewBank⚙</title>
+ </head>
+ <body>
+  <style>
+   body {	background:url(https://i.ibb.co/pvQJQPZ/image.jpg);
+   				}
+   h1 {
+   				color:#17ff32;
+   				}
+   h3 {
+   				color:#17ff32;
+   				}
+   .class1 {
+   				background-color:white;
+   				}
+   	button {
+   					width:100px;
+   					height:30px;
+   					color:white;
+   					background-color:#17ff32;
+   					border-width:3px;
+   					border-color:#12c927;
+   					}
+  </style>
+  <script>
+  var card = {
+  				card1: "5168 7559 0043 2770",
+  				balance:1000,
+  				}
+  function f1 (){	
+  				var b2 = document.getElementById("b2"); b2.parentNode.removeChild(b2);
+ 
+document.getElementById("1").innerHTML="Номер: " + card.card1;
+  document.getElementById("2").innerHTML="Баланс: " + card.balance;
+  				}
+  	function f2 (){
+  					var b1 = prompt("Сколько оплотить?");
+  					if(card.balance >= b1){
+  									card.balance -= b1;
+  									document.getElementById("2").innerHTML="Баланс: " + card.balance;
+  									}else{
+  													alert("Недостаточно денег!");
+  													}
+  					}
+  </script>
+  <center>
+  <h1>NewBank</h1>
+  <div class="class1">
+   <h3>Карта</h3>
+   <h3 id = "1">Номер:</h3>
+   <h3 id = "2">Баланс:</h3>
+   <button onclick="f2()">Оплатить</button>
+   <br/>
+   <br/>
+   <button id="b2" onclick="f1()">Обновить</button>
+   <div class="sketchfab-embed-wrapper">
+   <br/>
+   <br/> <iframe title="Karta" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="fullscreen; autoplay; vr" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/9474e98c7e554bf3844f50a55d653104/embed"> </iframe> <p style="font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;"> <a href="https://sketchfab.com/3d-models/karta-9474e98c7e554bf3844f50a55d653104?utm_medium=embed&utm_campaign=share-popup&utm_content=9474e98c7e554bf3844f50a55d653104" target="_blank" style="font-weight: bold; color: #1CAAD9;"> Karta </a> by <a href="https://sketchfab.com/krllesn310?utm_medium=embed&utm_campaign=share-popup&utm_content=9474e98c7e554bf3844f50a55d653104" target="_blank" style="font-weight: bold; color: #1CAAD9;"> krllesn310 </a> on <a href="https://sketchfab.com?utm_medium=embed&utm_campaign=share-popup&utm_content=9474e98c7e554bf3844f50a55d653104" target="_blank" style="font-weight: bold; color: #1CAAD9;">Sketchfab</a></p></div>
+  </div>
+  </center>
+ </body>
+</html>;
   												}else{
   																alert("У Иисуса было 12 Апостолов!");
   																}
